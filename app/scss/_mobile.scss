@@ -2,7 +2,7 @@
   @return ($px-vw * 100vw) / $base-vw
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 767px) {
   body {
     font-size: vw(16px);
   }
