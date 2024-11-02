@@ -68,7 +68,8 @@
 
   .header {
     .logo {
-      width: vw(90px);
+      width: auto;
+      height: vw(36px);
     }
 
     .container {
@@ -469,6 +470,9 @@
   .contacts__top {
     margin-bottom: vw(60px);
     gap: vw(80px);
+    .logo {
+      height: vw(32px);
+    }
 
     p {
       max-width: vw(670px);

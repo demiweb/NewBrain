@@ -435,6 +435,10 @@
     gap: vw(20px);
     margin-bottom: vw(30px);
 
+    .logo {
+      height: vw(36px);
+    }
+
     p {
       width: 100%;
       max-width: 100%;
@@ -509,7 +513,8 @@
   }
   .header {
     .logo {
-      width: vw(90px);
+      width: auto;
+      height: vw(16px);
     }
 
     .btn {
